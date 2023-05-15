@@ -1,0 +1,58 @@
+#header {
+  min-height: 66px;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: 15px;
+}
+
+#options {
+  min-height: 70px;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.subheader {
+  min-height: 70px;
+  background-color: var(--color-primary);
+}
+
+.subheader > h2 {
+  font-family: var(--font-primary);
+  text-align: center;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#recomend {
+  background-color: var(--color-primary);
+  text-align: center;
+}
+
+#recomend article img {
+  height: 100px;
+  width: 80px;
+  margin: 30px;
+}
+
+#recomend article h2 {
+  margin: 30px;
+  font-family: var(--font-primary);
+}
+
+#secondCarousel .carousel-item {
+  display: flex;
+}
+
+.card {
+}
+
+.card img {
+}
