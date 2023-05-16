@@ -1,18 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Red+Hat+Mono:wght@400;500&display=swap');
+
+:root {
+  --color-primary: #fcb900;
+  --font-primary:font-family: 'Red Hat Mono', monospace;
+  --font-secundary: font-family: 'Rajdhani', sans-serif;
+}
+
+
 #header {
-  min-height: 66px;
+  height: 65px;
   text-align: center;
-  font-family: var(--font-primary);
-  font-size: 15px;
+  font-family: var(--font-secundary);
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 20px;
+  width: 100%;
 }
 
 #options {
-  min-height: 70px;
+  height: 90px;
   background-color: var(--color-primary);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   letter-spacing: 1px;
+  padding: 0 200px
 }
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+#line {
+  border-left: solid black 1px;
+  padding-left: 20px; /* Ajusta el valor según la separación deseada */
+}
+
+#lupa {
+  transform: rotate(100deg);
+}
+
+.fa-solid {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+
 
 .subheader {
   min-height: 70px;
@@ -51,8 +118,24 @@
   display: flex;
 }
 
-.card {
+#capsulas {
+  background-color: var(--color-primary);
+  display: flex;
 }
 
-.card img {
+#info {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.final {
+  height: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.final > p {
+  padding-top: 35px;
 }

@@ -8,3 +8,5 @@ $(document).ready(function() {
       currentIndex = (currentIndex + 1) % headerTexts.length;
     }, 5000); 
   });
+
+  

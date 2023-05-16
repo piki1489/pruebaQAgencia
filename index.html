@@ -7,7 +7,6 @@
     <title>QAgencia</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/imports.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -28,7 +27,6 @@
         Envío gratis por compra superior a 35€ (solo península) - CUPÓN
         ENVIOGRATIS
       </h2>
-
       <div id="options">
         <div class="logo">
           <img
@@ -36,9 +34,23 @@
             alt="logo"
           />
         </div>
-        <div class="search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-bars"></i>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">SUSCRIPCIONES</a></li>
+              <li><a href="#">TALLERES</a></li>
+              <li><a href="#">NOSOTROS</a></li>
+              <li><a href="#">ÁREA</a></li>
+              <li><a href="#">PRO</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icons">
+          <i id="line" class="fa-solid fa-circle-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>0
+          <i id="lupa" class="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
       <div
@@ -88,11 +100,7 @@
         </div>
         <div class="col-sm-5">
           <div class="card">
-            <img
-              src="images/4-MAQ_0003_ESPRESSO.jpg"
-              class="card-img-top"
-              alt="ESPRESSO"
-            />
+            <img src="images/4-MAQ_0003_ESPRESSO.jpg" alt="ESPRESSO" />
             <div class="card-body">
               <p class="card-text">ESPRESSO & MOKA ITALIANA</p>
             </div>
@@ -100,11 +108,7 @@
         </div>
         <div class="col-sm-5">
           <div class="card">
-            <img
-              src="images/4-MAQ_0000_FILTRO.jpg"
-              class="card-img-top"
-              alt="FILTRO"
-            />
+            <img src="images/4-MAQ_0000_FILTRO.jpg" alt="FILTRO" />
             <div class="card-body">
               <p class="card-text">FILTRO</p>
             </div>
@@ -112,11 +116,7 @@
         </div>
         <div class="col-sm-5">
           <div class="card">
-            <img
-              src="images/4-MAQ_0002_SUPERAUTO.jpg"
-              class="card-img-top"
-              alt="SUPERAUTO"
-            />
+            <img src="images/4-MAQ_0002_SUPERAUTO.jpg" alt="SUPERAUTO" />
             <div class="card-body">
               <p class="card-text">SUPERAUTO</p>
             </div>
@@ -124,11 +124,7 @@
         </div>
         <div class="col-sm-5">
           <div class="card">
-            <img
-              src="images/4-MAQ_0001_CAPSULAS.jpg"
-              class="card-img-top"
-              alt="CÁPSULAS"
-            />
+            <img src="images/4-MAQ_0001_CAPSULAS.jpg" alt="CÁPSULAS" />
             <div class="card-body">
               <p class="card-text">CÁPSULAS</p>
             </div>
@@ -161,7 +157,6 @@
             <div class="card">
               <img
                 src="images/TRES-MILAGROS-ESPRESSO-PACK-612x612.png"
-                class="card-img-top"
                 alt="tres-milagros"
               />
               <div class="card-body">
@@ -172,9 +167,8 @@
             </div>
             <div class="card">
               <img
-                src="images/LOS-A╠uNGELES-SUPERAUTO-PACK-612x612.png"
-                class="card-img-top"
-                alt="LOS-A╠uNGELES-SUPERAUT"
+                src="images/LOS-ANGELES-SUPERAUTO-PACK-612x612.png"
+                alt="LOS-ANGELES-SUPERAUT"
               />
               <div class="card-body">
                 <h5 class="card-title">LOS ANGELES Perú</h5>
@@ -185,7 +179,6 @@
             <div class="card">
               <img
                 src="images/KONGA-FILTRO-PACK-612x612.png"
-                class="card-img-top"
                 alt="KONGA-FILTRO"
               />
               <div class="card-body">
@@ -197,7 +190,6 @@
             <div class="card">
               <img
                 src="images/M-SUPER-AUTO2-PICODEORIZABA-612x612.jpg"
-                class="card-img-top"
                 alt="PICODEORIZABA"
               />
               <div class="card-body">
@@ -209,11 +201,7 @@
           </div>
           <div class="carousel-item">
             <div class="card">
-              <img
-                src="images/SANTA-ELENA-612x612.jpg"
-                class="card-img-top"
-                alt="SANTA-ELENA"
-              />
+              <img src="images/SANTA-ELENA-612x612.jpg" alt="SANTA-ELENA" />
               <div class="card-body">
                 <h5 class="card-title">Santa Elena Drip</h5>
                 <p class="card-text">7.70 € IVA incluido</p>
@@ -223,17 +211,17 @@
             <div class="card">
               <img
                 src="images/M-SUPER-AUTO2-PICODEORIZABA-612x612.jpg"
-                class="card-img-top"
                 alt="PICODEORIZABA"
               />
               <div class="card-body">
                 <h5 class="card-title">PICO DE ORIZABA Descafeinado México</h5>
-               <Desde class="card-text">Desde 10.40 €</p>
+                <p class="card-text">Desde 10.40 €</p>
                 <a href="#" class="btn btn-primary">SHOP</a>
               </div>
             </div>
           </div>
-          <!-- Agrega más elementos carousel-item según sea necesario -->
+          <!-- Agrega más elementosnecesario 
+          carousel-item según sea necesario -->
         </div>
         <button
           class="carousel-control-prev"
@@ -256,7 +244,88 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
+      <div id="capsulas">
+        <div>
+          <article>
+            <h2>NUEVAS CÁPSULAS COMPOSTABLES RESIDUO 0%</h2>
+            <p>
+              Nuestras nuevas cápsulas son 100% biodegradables y compostables
+              “nivel home”. Eso significa que las puedes tirar en la fracción de
+              basura orgánica o, si lo prefieres, enterrarlas junto a tu planta
+              preferida del jardín. ¡Y desaparecerán en 26 semanas!
+            </p>
+            <button>Pídelas ya</button>
+          </article>
+        </div>
+        <div>
+          <img src="images/COMPOST-HOME-1.png" alt="" />
+        </div>
+      </div>
+      <div id="suscribe">
+        <h3>Suscríbete</h3>
+        <h2>OLVÍDATE, NOSOTROS NOS ENCARGAMOS DE TODO.</h2>
+        <p>
+          Si, estamos de acuerdo, hacer la compra cada mes es un rollo. Por eso
+          te ofrecemos el servicio de suscripción. Tu eliges el café que te
+          gusta y nosotros nos encargamos de que nunca te falte. Así puedes
+          dedicar tu cabeza y tu tiempo a cosas más importantes.
+        </p>
+        <button>MÁS INFO</button>
+      </div>
     </main>
+    <footer>
+      <div id="info">
+        <div>
+          <h2>CONTACTA</h2>
+          <p>
+            DANOS UN TOQUE: <br />T- 931 196 941 <br />
+            <span> O MÁNDANOS UN MENSAJE.</span>
+          </p>
+          <ul>
+            <li>INSTAGRAM</li>
+            <li>FACEBOOK</li>
+            <li>YOUTUBE</li>
+            <li>LINKEDIN</li>
+            <li>SPOTIFY</li>
+          </ul>
+        </div>
+        <div>
+          <h2>DÓNDE ESTAMOS</h2>
+          <p>
+            VEN A VERNOS Y TÓMATE UN CAFÉ CON <br />
+            NOSOTROS:
+          </p>
+          <p class="map">CAFETERÍA CAFÉ DE FINCA</p>
+          <p>
+            PASSATGE MERCÈ RODOREDA, 2 <br />CASTELLDEFELS, BARCELONA
+            <br />(08860)
+          </p>
+        </div>
+        <div>
+          <h2>OFICINA CENTRAL-TOSTADERO</h2>
+          <p class="ofiMap">CAFÉ DE FINCA, S.L</p>
+          <p>AVDA. PINEDA, 35 <br />CASTELLDEFELS, BARCELONA <br />(08860)</p>
+          <p class="contact">CONTACTA CON NOSOTROS</p>
+        </div>
+        <div>
+          <h2>INFORMACIÓN LEGAL</h2>
+          <ul>
+            <li>AVISO LEGAL</li>
+            <li>POLÍTICA DE PRIVACIDAD</li>
+            <li>POLÍTICA DE COOKIES</li>
+            <li>
+              CONDICIONES GENERALES DE <br />
+              CONTRATACIÓN
+            </li>
+            <li></li>
+            <li>CONDICIONES GENERALES DE VENTA</li>
+          </ul>
+        </div>
+      </div>
+      <div class="final">
+        <p><span>CAFÉ DE FINCA</span>© 2023 – Todos los derechos reservados</p>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
