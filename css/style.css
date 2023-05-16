@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   letter-spacing: 1px;
-  padding: 0 200px
+  padding: 0 200px;
 }
 
 .menu {
@@ -121,26 +121,100 @@
   font-size: 18px;
 }
 
-.row {
+
+
+/* .row {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.wrap {
+ display: block;
+ justify-content: center;
+ align-items: center;
+ max-width: 1505px;
+ margin-left: 185px;
+}
+
+.text h2 {
+  margin-top: 50px;
+  
+  font-family: var(--font-primary);
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.line {
+  width: auto;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto 75px;
+}
+
+
+
+.cards{
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+.card{
+width: 370px;
+height: 485px;
+margin: 5px;
+  text-align: center;
 }
 
 #recomend {
+  height: 710px;
   background-color: var(--color-primary);
   text-align: center;
 }
 
 #recomend article img {
-  height: 100px;
-  width: 80px;
-  margin: 30px;
+  height: 120px;
+  width: 85px;
+  margin-top: 80px;
 }
 
 #recomend article h2 {
-  margin: 30px;
+  margin: 25px;
   font-family: var(--font-primary);
+  font-size: 30px;
+}
+
+#recomend article h3 {
+ 
+  font-family: var(--font-primary);
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+#recomend article p {
+  width: auto ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#recomend article button {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  background:none;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#recomend article button:hover{
+  background-color: #000;
+  color: white;
+}
+
+.hall{
+  display: flex;
+  justify-content: space-around;
 }
 
 #secondCarousel .carousel-item {
@@ -150,6 +224,19 @@
 #capsulas {
   background-color: var(--color-primary);
   display: flex;
+  height: 550px;
+  justify-content: space-around;
+}
+
+#capsulas article{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding:120px 0 0 50px
+}
+
+#capsulas  img{
+  padding-top: 79px;
 }
 
 #info {
