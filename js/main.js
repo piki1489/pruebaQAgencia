@@ -9,4 +9,8 @@ $(document).ready(function() {
     }, 5000); 
   });
 
+$(document).ready(function (){
+  $(".bxslider").bxSlider({auto:true});
+})
+
   
