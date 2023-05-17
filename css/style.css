@@ -235,6 +235,15 @@ margin: 5px;
   padding:120px 0 0 50px
 }
 
+#suscribe{
+  height: 400px;
+  text-align: center;
+}
+
+.contaSub{
+
+}
+
 #capsulas  img{
   padding-top: 79px;
 }
